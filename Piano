@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: red;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: red;
+        }
+        footer {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Piano Enthusiast</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#favorites">Favorites</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my personal webpage! I'm passionate about playing the piano and sharing beautiful music with others.</p>
+        </section>
+        <section id="favorites">
+            <h2>Favorite Piano Pieces</h2>
+            <ul>
+                <li>1. Piece 1</li>
+                <li>2. Piece 2</li>
+                <li>3. Piece 3</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>You can reach me at: your.email@example.com</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 Your Name
+    </footer>
+</body>
+</html>
